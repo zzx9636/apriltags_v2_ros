@@ -21,6 +21,7 @@ public:
     ~april_detector();
 
     void detection(cv::Mat gray);
+    void detection_show(zarray_t * detections,cv::Mat & frame);
 
     
 private:

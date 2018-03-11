@@ -13,7 +13,7 @@ class ImageConverter
 {
 public:
   ImageConverter();
-  ~ImageConverter();
+  //~ImageConverter();
   void ros2cv(const sensor_msgs::ImageConstPtr& msg);  
 
 
