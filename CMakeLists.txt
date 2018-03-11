@@ -78,8 +78,8 @@ target_link_libraries(ImageConverter
    april_detector
  )
 
- add_executable(test_cv_node src/test_cv.cpp)
- target_link_libraries(test_cv_node
+ add_executable(apriltag2_ros_node src/apriltag2_ros_node.cpp)
+ target_link_libraries(apriltag2_ros_node
    ${catkin_LIBRARIES}
    ImageConverter
  )

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>apriltag2_ros_node</name>
+  <name>apriltag2_ros</name>
   <version>0.0.0</version>
   <description>apriltag 2 with ros</description>
 
